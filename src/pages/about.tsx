@@ -1,4 +1,5 @@
 import React from 'react';
+import Profile from '../images/Profile_pic.jpg'
 
 export function AboutPage() {
   return (
@@ -8,7 +9,7 @@ export function AboutPage() {
         <div className="w-full md:w-1/3">
           <div className="aspect-square rounded-lg overflow-hidden">
             <img
-              src="src/images/Profile_pic.jpg"
+              src={Profile}
               alt="Profile"
               className="w-full h-full object-cover"
             />
