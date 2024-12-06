@@ -8,7 +8,7 @@ export function AboutPage() {
         <div className="w-full md:w-1/3">
           <div className="aspect-square rounded-lg overflow-hidden">
             <img
-              src="./src/images/Profile_pic.jpg"
+              src="https://drive.google.com/file/d/1oiZgdcg5zuAmavloCmMTeLJTxe6MShvl/view?usp=sharing"
               alt="Profile"
               className="w-full h-full object-cover"
             />
