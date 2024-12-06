@@ -5,10 +5,10 @@ export function AboutPage() {
     <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
       <div className="flex flex-col md:flex-row gap-8">
         {/* Profile Picture Section */}
-        <div className="w-full md:w-2/5">
+        <div className="w-full md:w-1/3">
           <div className="aspect-square rounded-lg overflow-hidden">
             <img
-              src="src/images/Profile_pic.jpg"
+              src="./src/images/Profile_pic.jpg"
               alt="Profile"
               className="w-full h-full object-cover"
             />
