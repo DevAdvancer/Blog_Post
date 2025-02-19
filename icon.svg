@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <!-- Background circle -->
+  <circle cx="50" cy="50" r="45" fill="#4A90E2" />
+
+  <!-- Stylized "B" formed by paper/document shapes -->
+  <path d="M35 25 L65 25 L65 45 L35 45 Z" fill="white" />
+  <path d="M35 55 L65 55 L65 75 L35 75 Z" fill="white" />
+
+  <!-- Decorative lines suggesting text -->
+  <line x1="40" y1="32" x2="60" y2="32" stroke="rgba(74,144,226,0.6)" stroke-width="3" />
+  <line x1="40" y1="38" x2="55" y2="38" stroke="rgba(74,144,226,0.6)" stroke-width="3" />
+
+  <line x1="40" y1="62" x2="60" y2="62" stroke="rgba(74,144,226,0.6)" stroke-width="3" />
+  <line x1="40" y1="68" x2="55" y2="68" stroke="rgba(74,144,226,0.6)" stroke-width="3" />
+</svg>
