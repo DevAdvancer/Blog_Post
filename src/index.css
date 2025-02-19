@@ -1,33 +1,32 @@
+@import url('https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/styles/github-dark.min.css');
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-@import url('https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/styles/github-dark.min.css');
-
 @layer base {
   :root {
     color-scheme: light;
+    --background: 255 255 255;
+    --foreground: 17 24 39;
   }
 
   .dark {
     color-scheme: dark;
+    --background: 17 24 39;
+    --foreground: 243 244 246;
   }
 
   body {
-    @apply bg-white text-gray-900 transition-colors duration-200;
-  }
-
-  .dark body {
-    @apply bg-gray-900 text-gray-100;
+    @apply bg-[rgb(var(--background))] text-[rgb(var(--foreground))] transition-colors duration-200;
   }
 }
 
 @layer components {
   .prose {
-    @apply prose-pre:bg-gray-800 prose-pre:text-gray-100;
+    @apply prose-pre:bg-gray-800 prose-pre:text-gray-100 max-w-none;
   }
 
   .dark .prose {
-    @apply prose-invert;
+    @apply prose-invert prose-pre:bg-gray-900;
   }
 }
